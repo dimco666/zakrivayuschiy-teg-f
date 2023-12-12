@@ -19,4 +19,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font), Arial, Helvetica, sans-serif;
   font-variation-settings: var(--font-weight-text-card);
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  font-weight: var(--font-weight-title-card);
 }
