@@ -10,6 +10,9 @@
     --accent-color: #000;
     --font-weight-text-card: 400;
     --font-weight-title-card: 700;
+    --first-and-second-gradient-color: #d3d3d3;
+    --third-gradient-color: #e7e7e7;
+    --fourth-gradient-color: #1a1a1a;
 }
 
 :root.theme-light {
@@ -17,6 +20,9 @@
     --accent-color: #000;
     --font-weight-text-card: 400;
     --font-weight-title-card: 700;
+    --first-and-second-gradient-color: #d3d3d3;
+    --third-gradient-color: #e7e7e7;
+    --fourth-gradient-color: #1a1a1a;
 }
 
 .theme-dark {
@@ -24,6 +30,9 @@
     --accent-color: #00CC14;
     --font-weight-text-card: 465;
     --font-weight-title-card: 785;
+    --first-and-second-gradient-color: #000;
+    --third-gradient-color: #007f0c;
+    --fourth-gradient-color: #004306;
 }
 
 :root.theme-dark {
@@ -31,6 +40,9 @@
     --accent-color: #00CC14;
     --font-weight-text-card: 465;
     --font-weight-title-card: 785;
+    --first-and-second-gradient-color: #000;
+    --third-gradient-color: #007f0c;
+    --fourth-gradient-color: #004306;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,5 +51,8 @@
         --accent-color: #00CC14;
         --font-weight-text-card: 465;
         --font-weight-title-card: 785;
+        --first-and-second-gradient-color: #000;
+        --third-gradient-color: #007f0c;
+        --fourth-gradient-color: #004306;
     }
 }
