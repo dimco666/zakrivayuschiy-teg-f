@@ -64,3 +64,12 @@ margin-top: 20px;
 .theme-menu {
   padding: 25px 0;
 }
+
+.content {
+  padding-top: 104px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
