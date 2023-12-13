@@ -163,3 +163,35 @@ align-items: center;
 height: 55px;
 padding: 15px 20px;
 }
+
+.theme-menu__item {
+  position: relative;
+}
+
+.theme-menu__button {
+  background-color: transparent;
+  border: none;
+}
+
+.theme-menu__button:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.theme-menu__button:disabled::before {
+  content: "▶";
+  opacity: 0.6;
+  position: absolute;
+  left: -20px;
+  pointer-events: none;
+  animation: animation-arrow 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes animation-arrow {
+  from {
+    translate: 0px;
+  }
+  to {
+    translate: 4px;
+  }
+}
