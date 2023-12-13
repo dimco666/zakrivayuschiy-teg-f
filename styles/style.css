@@ -135,10 +135,17 @@ line-height: 21px; /* 116.667% */
 .button {
   background-color: var(--background-color);
   border: 2px solid var(--accent-color);
+  overflow: hidden;
 }
 
 .button__text {
   font-family: var(--accent-font);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 var(--accent-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
