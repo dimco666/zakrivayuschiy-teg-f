@@ -287,6 +287,14 @@ padding: 15px 20px;
   fill: var(--accent-color);
 }
 
+.like-icon:active .core {
+  fill: var(--sparks-color);
+}
+
+.like-icon:active .main-body {
+  fill: var(--sparks-color);
+}
+
 @keyframes animation-arrow {
   from {
     translate: 0px;
