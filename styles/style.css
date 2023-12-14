@@ -138,6 +138,7 @@ line-height: 21px; /* 116.667% */
   border: 2px solid var(--accent-color);
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
 .button__text {
@@ -182,6 +183,11 @@ align-items: center;
 .card__icon-button {
   background-color: var(--background-color);
   border: none;
+  height: 38px;
+}
+
+.like-icon {
+  height: 100%;
 }
 
 .card__icon-button:focus {
@@ -259,6 +265,10 @@ padding: 15px 20px;
 .floppy {
   mix-blend-mode: difference;
   fill: var(--button-color);
+}
+
+.sparks {
+  opacity: 0;
 }
 
 @keyframes animation-arrow {
