@@ -109,6 +109,8 @@ padding: 3px 10px;
 
 .img-container {
   position: relative;
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .card__description {
