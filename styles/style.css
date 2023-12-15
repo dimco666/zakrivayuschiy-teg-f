@@ -188,6 +188,7 @@ align-items: center;
 
 .like-icon {
   height: 100%;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -295,11 +296,49 @@ padding: 15px 20px;
   fill: var(--sparks-color);
 }
 
+.like-icon.is-liked .core {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked .main-body {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked .contour {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked .heart {
+  animation: scale-heart 0.3s ease-in alternate;
+}
+
+.like-icon.is-liked .sparks {
+  animation: sparks-opacity 0.3s ease-in 0.3s;
+}
+
 @keyframes animation-arrow {
   from {
     translate: 0px;
   }
   to {
     translate: 4px;
+  }
+}
+
+@keyframes scale-heart {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
+}
+
+@keyframes sparks-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
