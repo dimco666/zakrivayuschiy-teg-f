@@ -189,6 +189,7 @@ align-items: center;
 .like-icon {
   height: 100%;
   cursor: pointer;
+  overflow: visible;
 }
 
 .card__icon-button:focus {
@@ -316,6 +317,11 @@ padding: 15px 20px;
   animation: sparks-opacity 0.3s ease-in 0.3s;
 }
 
+.heart {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
 @keyframes animation-arrow {
   from {
     translate: 0px;
@@ -327,10 +333,10 @@ padding: 15px 20px;
 
 @keyframes scale-heart {
   from {
-    scale: 1;
+    transform: scale(1);
   }
   to {
-    scale: 1.5;
+    transform: scale(1.5);
   }
 }
 
