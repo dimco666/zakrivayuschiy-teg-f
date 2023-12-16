@@ -96,6 +96,38 @@ padding: 3px 10px;
   object-fit: cover;
 }
 
+.motivation:hover {
+  filter: saturate(200%);
+}
+
+.fear:hover {
+  filter: grayscale(100%);
+}
+
+.inspiration:hover {
+  filter: hue-rotate(-90deg);
+}
+
+.diligence:hover {
+  filter: contrast(160%);
+}
+
+.support:hover {
+  filter: brightness(130%);
+}
+
+.creative:hover {
+  filter: blur(0.3rem);
+}
+
+.concentrate:hover {
+  filter: sepia(80%);
+}
+
+.progress:hover {
+  filter: opacity(0.5) sepia(80%) contrast(150%);
+}
+
 .watermark {
   font-family: var(--accent-font), Arial, Helvetica, sans-serif;
   -webkit-text-stroke: 0.5px var(--background-color);
