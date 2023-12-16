@@ -1,14 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --main-font: 'Inter-Variable';
-    --accent-font: 'PressStart2P-Regular';
-    --font-weight-text-card: 400;
-    --font-weight-title-card: 700;
-    --background-color: #fff;
-    --accent-color: #000;
-    --first-and-second-gradient-color: #d3d3d3;
-    --third-gradient-color: #e7e7e7;
-    --fourth-gradient-color: #1a1a1a;
-    --button-color: #fff;
-    --sparks-color: #FF0000;
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P-Regular";
+  --font-weight-text-card: 400;
+  --font-weight-title-card: 700;
+  --background-color: #fff;
+  --accent-color: #000;
+  --first-and-second-gradient-color: #d3d3d3;
+  --third-gradient-color: #e7e7e7;
+  --fourth-gradient-color: #1a1a1a;
+  --button-color: #fff;
+  --sparks-color: #ff0000;
 }

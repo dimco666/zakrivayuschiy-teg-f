@@ -22,9 +22,19 @@
   background-color: var(--background-color);
   color: var(--accent-color);
   font-weight: var(--font-weight-title-card);
-  background-image: repeating-linear-gradient(90deg, var(--first-and-second-gradient-color) 0 2px, transparent 2px 4px),
-  repeating-linear-gradient(var(--first-and-second-gradient-color) 0 2px, transparent 2px 4px),
-  repeating-linear-gradient(var(--third-gradient-color), var(--fourth-gradient-color));
+  background-image: repeating-linear-gradient(
+      90deg,
+      var(--first-and-second-gradient-color) 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      var(--first-and-second-gradient-color) 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      var(--third-gradient-color),
+      var(--fourth-gradient-color)
+    );
   background-size: cover;
   background-attachment: scroll;
   padding: 100px 370px;
@@ -44,24 +54,24 @@
 
 .title {
   color: var(--accent-color);
-font-family: Press Start 2P;
-font-size: 65px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-margin-top: 136px;
+  font-family: Press Start 2P;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 136px;
 }
 
 .subtitle {
   color: var(--accent-color);
-font-family: Press Start 2P;
-font-size: 23px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-margin-top: 20px;
+  font-family: Press Start 2P;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .theme-menu {
@@ -84,12 +94,12 @@ margin-top: 20px;
 }
 
 .card__title {
-font-family: var(--main-font);
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding: 3px 10px;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 3px 10px;
 }
 
 .card__image {
@@ -162,10 +172,10 @@ padding: 3px 10px;
 
 .card__text {
   font-family: var(--main-font);
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px; /* 116.667% */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 116.667% */
 }
 
 .buttons {
@@ -216,11 +226,11 @@ line-height: 21px; /* 116.667% */
 
 .card__like-button {
   display: flex;
-width: 130px;
-height: 38px;
-padding: 9px 17px;
-justify-content: center;
-align-items: center;
+  width: 130px;
+  height: 38px;
+  padding: 9px 17px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__icon-button {
@@ -274,7 +284,7 @@ align-items: center;
 
 .theme-menu__button::after {
   text-decoration: underline;
-  content: '';
+  content: "";
   display: block;
   transform: scaleX(0);
   height: 3px;
@@ -337,17 +347,17 @@ align-items: center;
   width: 100%;
   height: 100%;
   justify-self: center;
-    align-self: center;
+  align-self: center;
 }
 
-.dialog-window__text{
+.dialog-window__text {
   justify-self: center;
-    align-self: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21px */
-text-transform: uppercase;
+  align-self: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  text-transform: uppercase;
 }
 
 @media (width <= 375px) {
