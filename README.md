@@ -1,1 +1,1 @@
-https://dimco666.github.io/zakrivayuschiy-teg-f/
+https://github.com/dimco666/zakrivayuschiy-teg-f.git
