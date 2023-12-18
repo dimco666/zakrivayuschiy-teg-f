@@ -283,10 +283,11 @@
         <use href="./svg/floppy.svg#floppy-1"/>
       </svg>
       <span class="button__text dialog-window__text">Вставьте<br>дискету, чтобы продолжить</span>
-      <button class="button dialog-window__button" type="button"
-      onclick="window['dialog-id'].close()">
+      <form method="dialog" class="dialog-window__button">
+      <button class="button button-form" type="submit">
         <span class="button__text">ок</span>
       </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
