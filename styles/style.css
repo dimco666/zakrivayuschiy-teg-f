@@ -54,7 +54,7 @@
 
 .title {
   color: var(--accent-color);
-  font-family: Press Start 2P;
+  font-family: var(--accent-font), Arial, Helvetica, sans-serif;
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@
 
 .subtitle {
   color: var(--accent-color);
-  font-family: Press Start 2P;
+  font-family: var(--accent-font), Arial, Helvetica, sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +142,7 @@
 
 .watermark {
   font-family: var(--accent-font), Arial, Helvetica, sans-serif;
-  -webkit-text-stroke: 0.5px var(--background-color);
+  text-shadow: 0.5px var(--background-color);
   position: absolute;
   top: 25px;
   right: 25px;
@@ -402,5 +402,13 @@
 
   .img-container {
     height: 371px;
+  }
+}
+
+@supports((text-stroke: 0.5px var(--background-color)) or (-webkit-text-stroke: 0.5px var(--background-color))) {
+  .watermark {
+      -webkit-text-stroke: 0.5px var(--background-color);
+      text-stroke: 0.5px var(--background-color);
+      text-shadow: none;
   }
 }
