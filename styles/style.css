@@ -410,8 +410,8 @@
   }
 
 .button-save__floppy {
-  width: 28px;
-  height: 28px;
+    width: 28px;
+    height: 28px;
 }
 
   .card {
@@ -441,6 +441,7 @@
 
   .dialog-window[open] {
     grid-template-columns: 39px 198px;
+    width: 341px;
   }
 
   .img-container {
