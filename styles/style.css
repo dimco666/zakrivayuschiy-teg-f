@@ -149,7 +149,7 @@
 
 .watermark {
   font-family: var(--accent-font), Copperplate, Papyrus, fantasy;
-  text-shadow: 0.5px var(--background-color);
+  text-shadow: 1px 1px var(--background-color);
   position: absolute;
   top: 25px;
   right: 25px;
@@ -452,10 +452,9 @@
   }
 }
 
-@supports((text-stroke: 0.5px var(--background-color)) or (-webkit-text-stroke: 0.5px var(--background-color))) {
+@supports((text-stroke: 1px 1px var(--background-color)) or (-webkit-text-stroke: 1px 1px var(--background-color))) {
   .watermark {
-      -webkit-text-stroke: 0.5px var(--background-color);
-      text-stroke: 0.5px var(--background-color);
-      text-shadow: none;
+      -webkit-text-stroke: 1px 1px var(--background-color);
+      text-stroke: 1px 1px var(--background-color);
   }
 }
