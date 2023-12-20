@@ -56,7 +56,7 @@
 .title {
   color: var(--accent-color);
   font-family: var(--accent-font), Copperplate, Papyrus, fantasy;
-  font-size: 65px;
+  font-size: clamp(49px, 65px, 65px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -67,7 +67,7 @@
 .subtitle {
   color: var(--accent-color);
   font-family: var(--accent-font), Copperplate, Papyrus, fantasy;
-  font-size: 23px;
+  font-size: clamp(14px, 23px, 23px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -384,9 +384,8 @@
   height: 100%;
 }
 
-@media (375px <= width < 768px ) {
+@media (375px <= width <= 768px ) {
   .page {
-    padding: 100px 0;
     min-width: 375px;
   }
 
@@ -423,7 +422,7 @@
   }
 
   .subtitle {
-    font-size: 14px;
+    font-size: clamp(14px, 14px, 23px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -431,7 +430,7 @@
   }
 
   .title {
-    font-size: 49px;
+    font-size: clamp(49px, 49px, 65px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
