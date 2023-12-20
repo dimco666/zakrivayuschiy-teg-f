@@ -439,6 +439,10 @@
     margin-top: 120px;
   }
 
+  .watermark {
+    right: 11px;
+  }
+
   .dialog-window[open] {
     grid-template-columns: 39px 198px;
     width: 341px;
