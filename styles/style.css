@@ -36,8 +36,8 @@
       var(--fourth-gradient-color)
     );
   background-size: cover;
-  background-attachment: scroll;
-  padding: 100px 370px;
+  background-attachment: fixed;
+  padding: 100px 0;
 }
 
 .header {
@@ -384,7 +384,7 @@
   height: 100%;
 }
 
-@media (375px <= width < 1440px ) {
+@media (375px <= width < 768px ) {
   .page {
     padding: 100px 0;
     min-width: 375px;
