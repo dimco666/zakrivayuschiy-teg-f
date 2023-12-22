@@ -391,6 +391,10 @@
     min-width: 375px;
   }
 
+  .title {
+    margin-top: 120px;
+  }
+
   .theme-menu {
     padding: 25px 133px 25px 154px;
   }
